@@ -58,7 +58,10 @@ function Store() {
             </div>
             <p>Category Titles</p>
             <div className='container_of_card'>
-            <div className='card2_div'>
+            <div onClick={(e)=>{
+                e.preventDefault();
+                window.location.href='/Chatbot';
+            }} className='card2_div'>
                 <div>
                 <img className="image"src={logo5}></img>
                 </div>

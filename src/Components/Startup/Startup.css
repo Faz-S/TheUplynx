@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+.bhdy{
+    background-color: rgb(189, 49, 189);
+    
+}
+.yaybuddy{
+    /* margin-top: -8rem; */
+    display: flex;
+    /* column-gap: 20rem; */
+    margin:1rem;
+    border-width: 1px;
+    border-style: solid;
+    background-color: white;
+}
+.innerdiv{
+    padding: 1.5rem;
+    /* padding-bottom: 3rem; */
+}
+.innerdiv h4{
+    margin-bottom:0.6rem;
+}
+.wholeinp{
+    margin-left: 5px;
+    margin-bottom:1rem;
+    width:99%;
+    padding: 9px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width:1px;
+
+}
+.wholeinp2{
+   
+    margin-left: 5px;
+    margin-bottom:0.5rem;
+    width:100%;
+    padding: 9px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width:1px;
+
+
+}
+.confdiv{
+    display: flex;
+    column-gap: 11rem;
+    
+}
+.confdiv2 {
+    display: flex;
+}
+.confdiv2 input{
+    padding-right: 10rem;
+}
+.confdiv input{
+    padding-right: 9rem;
+}
+.yaybudy{
+   margin:1.5rem;
+}
+.wholeinp6{
+    padding: 8.5px;
+}
+.yaybudy h4{
+    margin-bottom:10px;
+    
+}
+.yaybudy select{
+    width:150%;
+    border-radius: 5px;
+}
+.yaybudy textarea{
+    margin-top: 0.8rem;
+    width:150%;
+    height:56.8vh;
+}
+.yaybudy button{
+    margin-top: 1rem;
+    width:150%;
+    padding:8px;
+    color:white;
+    background-color: rgb(189, 49, 189);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}

@@ -43,7 +43,7 @@
     border: none;
     padding:1rem;
     padding-top: 3rem;
-    padding-left: 8rem;
+    padding-left: 4rem;
     /* margin-left: rem; */
     border-radius: 7px;
     width:14%;
@@ -51,11 +51,12 @@
     color:#000000;
     margin-left: 2rem;
 }
-.blackdiv p{
-    margin-top: -1rem;
-}
+/* .blackdiv p{
+    /* margin-top: -5rem; */
+
 .blackdiv h3{
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+    margin-top: -2rem;
 }
 .saicard{
     display: flex;

@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 
-import './Login.css'
+import './Home2.css'
 import logo2 from './inv.jpg'
 // const cartcont=createContext();
-function Login() {
+function Home2(setChoose) {
   
 
 //  const [email,setEmail]=useState("")
@@ -22,6 +22,11 @@ useEffect(()=>{
 //   window.location.href='/Home'
 
 // }
+// const[choose,setChoose]=useState("")
+const handlechoose=(e)=>{
+    setChoose(e.target.value)
+    
+}
 return (<>
  
     <div className='bodyy'>
@@ -33,16 +38,20 @@ return (<>
           <div className='secondContainer'>
               <h2 className='head' 
               
-            >Login</h2>
-              <p className='tailp'>Welcome ! Please login to your account</p>
+            >Choose</h2>
+              <p className='tailp2'>Welcome ! Please choose to proceed</p>
+              {/* <input clas2sName='inp_1'>
+
+              </input> */}
               <p style={{fontWeight:"Bolder"}}>
-                Email
+                Choose
               </p>
-              <input className="inp_1"
-              type="email" required
-            
-               placeholder='Enter your email...'/>
-              <p 
+              {/* <input className="inp_2"
+              type="text" required
+              onChange={handlechoose}
+              placeholder='Founder or Investor'/> */}
+
+               {/*<p 
               style={{fontWeight:"Bolder"}}
               >Password</p>
               <input
@@ -53,16 +62,26 @@ return (<>
               <div className='smallone'>
                 <input style={{width:"20px"}}type="checkbox" required></input>
                 <p style={{fontWeight:"Bolder",fontSize:"15px"}}>Forgot password?</p>
-              </div>
+              </div> */}
               <div>
               <button className='logbtn' 
                 onClick={(e)=>{
                     e.preventDefault()
-                    window.location.href="/Home2"
+                    // document.getElementById("choose").innerHTML=`${choose}`
+                    window.location.href="/Home"
+
                 }}
-              >Login</button>
+              >Investor</button>
+              <button className='logbtn'
+              onClick={(e)=>{
+                e.preventDefault()
+                // document.getElementById("choose").innerHTML=`${choose}`
+                window.location.href="/founder"
+
+            }}>Founder</button>
               </div>
-              <p>New user?<span className='span_1' 
+              <div id="choose"></div>
+              <p style={{marginTop:"1rem"}}>New user?<span className='span_1' 
                 
               > Signup</span></p>
           </div>
@@ -78,4 +97,4 @@ return (<>
 }
 
 
-export default Login
+export default Home2
