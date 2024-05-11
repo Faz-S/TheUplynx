@@ -11,29 +11,29 @@ import {
 import { NavLink } from 'react-router-dom';
 import "./Founder.css"
 // import logo_2 from './med.png'
-const Home = ({children}) => {
+const Founder= ({children}) => {
     const[isOpen ,setIsOpen] = useState(false);
     const toggle = () => setIsOpen (!isOpen);
     const menuItem=[
         {
-            path:"/Dashboard",
+            path:"/Portfolio",
             // name:"Dashboard",
             icon:<FaTh/>
         },
         {
-            path:"/Profile",
+            path:"/Invest",
             // name:"Mytasks",
             icon:<FaUserAlt/>
         },
         {
-            path:"/log",
+            path:"/Funding",
             // name:"Notification",
             icon:<FaRegChartBar/>
         },
         
        
          {
-            path:"/log2",
+            path:"/Tax",
             //  name:"Log out",
             icon:<FaThList/>
          }
@@ -62,4 +62,4 @@ const Home = ({children}) => {
     );
 };
 
-export default Home;
+export default Founder;

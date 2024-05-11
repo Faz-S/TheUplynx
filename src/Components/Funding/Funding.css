@@ -1,0 +1,38 @@
+.fund{
+    margin-left: 13rem;
+    /* width:100%; */
+}
+.fundbdy{
+    margin-right: 9rem;
+    max-height: 90vh;
+}
+.fund_2{
+    background-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fund_2 h4{
+    margin-top: -2rem;
+    /* background-color: rgb(211, 202, 202); */
+    border-radius: 5px;
+    color:rgb(132, 129, 129);
+    padding: 8px;
+
+}
+.fund_2 button{
+        padding: 10px 16px;
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        background-color: srgb(0.372549 ,0.345098, 1);
+        color:#fff;
+        font-weight: bolder;
+
+}

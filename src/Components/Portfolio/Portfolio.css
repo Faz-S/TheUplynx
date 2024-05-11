@@ -1,0 +1,147 @@
+.the_other_container{
+    margin-left: 10rem;
+}
+.sepdiv{
+    border-style: solid;
+    border-width: 1px;
+    width:100%;
+    padding:0.2rem;
+    padding-left: 1rem;
+    border-radius: 9px;
+    border: none;
+    background-color: #f1ecec;
+
+    /* height:90%; */
+}
+
+.build{
+    margin-top: 2rem;
+}
+.build h2{
+    margin:0;
+    /* margin-top: -8px; */
+}
+.syndcards{
+    margin-top: 2.5rem;
+    display: flex;
+    /* width: %; */
+    /* justify-content:space-between; */
+    column-gap:1rem ;
+    border-style:solid ;
+    border-width: 1px;
+    border:none;
+}
+.syndcards div{
+    width:100%;
+    padding: 1rem;
+    border-style:solid ;
+    border-width: 1px;
+    height: 34vh;
+    border-radius: 8px;
+    border-color: rgb(216, 210, 210);
+}
+.syndcards div h3{
+    margin-top: 3rem;
+}
+
+    /* display: flex;
+    justify-content: space-around;
+} */
+.portbdy{
+    margin-right: 4%;
+    height: 200vh;
+}
+.bbtn{
+    margin-top: 0.6rem;
+    padding: 1rem;
+    padding-right: 20px;
+    padding-left: 19px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    cursor: pointer;
+    /* border:none; */
+    font-weight: bolder;
+    
+}
+.herodiv{
+    display: flex;
+    justify-content: space-between;
+}
+.sidediv{
+    display: flex;
+    column-gap: 1rem;
+}
+.sidediv button{
+    padding:0.5rem 1.5rem;
+    /* margin-left:1rem, */
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    background-color: rgb(26, 18, 18);
+    color:white;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.sidediv select{
+    padding:0.5rem 1.5rem;
+    /* margin-left:1rem, */
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    /* background-color: rgb(26, 18, 18); */
+    /* color:white; */
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.notsidediv input{
+    padding: 0.8rem;
+    /* width:100%; */
+    padding-right: 15rem;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(190, 188, 188);
+}
+.pdiv{
+    margin-top: 1rem;
+    display: flex;
+    justify-content:space-between ;
+    font-size: 15px;
+}
+.line{
+    width:100%;
+    padding-top: 4rem;
+    padding-left: 35rem;
+
+}
+.line p{
+    background-color: rgb(205, 203, 200);
+    width: 11%;
+    /* padding-left: 0.5rem; */
+    padding: 10px;
+    border-radius: 17px;
+    /* padding-left: -9px; */
+    /* align-items:center; */
+
+}
+.para{
+    margin-top:10rem;
+    font-weight: lighter;
+}
+/* .para p{
+    
+} */
+.aatag{
+    margin-top: 3rem;
+    display: flex;
+    column-gap:1.5rem ;
+    cursor:pointer;
+    text-decoration: underline;
+    font-weight: 300;
+}
