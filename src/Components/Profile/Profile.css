@@ -1,0 +1,64 @@
+.profile{
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.themaincont{
+    margin-left: 1.2rem;
+}
+.img234{
+    width: 50%;
+    height:10vh;
+    border-radius: 50%;
+    align-items: center;
+}
+.name{
+    margin-left: 2.6rem;
+}
+.class{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+.yaay{
+    margin-left: 1.4rem;
+    border-radius: 10px;
+    background-color: black;
+    width:99%;
+    height:100vh;
+    border-style: solid;
+    border-width: 1px;
+}
+.h3{
+    padding-left:1rem ;
+    color:#fff;
+    font-size: 20px;
+}
+.blackdiv{
+    /* display: flex;
+    justify-content: center; */
+    /* border-style: solid; */
+    background-color: #fff;
+    border: none;
+    padding:1rem;
+    padding-top: 3rem;
+    padding-left: 8rem;
+    /* margin-left: rem; */
+    border-radius: 7px;
+    width:14%;
+    height:14vh;
+    color:#000000;
+    margin-left: 2rem;
+}
+.blackdiv p{
+    margin-top: -1rem;
+}
+.blackdiv h3{
+    margin-left: 0.5rem;
+}
+.saicard{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
