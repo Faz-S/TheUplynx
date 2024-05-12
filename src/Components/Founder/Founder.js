@@ -20,11 +20,7 @@ const Founder= ({children}) => {
             // name:"Dashboard",
             icon:<FaTh/>
         },
-        {
-            path:"/Invest",
-            // name:"Mytasks",
-            icon:<FaUserAlt/>
-        },
+       
         {
             path:"/Funding",
             // name:"Notification",

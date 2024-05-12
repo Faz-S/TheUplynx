@@ -1,6 +1,10 @@
 import React, { useEffect } from 'react'
 import Founder from '../Founder/Founder'
 import './Portfolio.css'
+import logo9 from './a.svg'
+import logo10 from './b.svg'
+import logo11 from './c.svg'
+import logo12 from './d.svg'
 function Portfolio() {
     useEffect(()=>{
         document.body.classList.add("portbdy")
@@ -22,21 +26,25 @@ function Portfolio() {
             </div>
             <div className='syndcards'>
                 <div>
+                    <img className='realimage' src={logo9}/>
                     <h3>Syndicates</h3>
                     <p>Invest directly into startups alongside top VCs</p>
                     <button className='bbtn'>Browse</button>
                 </div>
                  <div>
+                    <img className='realimage' src={logo10}/>
                     <h3>Venture Funds</h3>
                     <p>Browse and apply to invest in venture funds</p>
                     <button  className='bbtn'>Browse</button>
                 </div>
                 <div>
+                    <img className='realimage' src={logo11}/>        
                     <h3>Rolling Funds</h3>
                     <p>Subscribe quarterly and adjust your investment size as your goals evolve </p>
                     <button  className='bbtn'>Browse</button>
                 </div>
                 <div>
+                    <img className='realimage' src={logo12}/>
                     <h3>Wishlist</h3>
                     <p>Build your investing wishlist and we’ll notify you if there’s an opportunity </p>
                     <button  className='bbtn'>Browse</button>

@@ -1,13 +1,25 @@
-import React, { useEffect } from 'react'
+import React, { useEffect,useState } from 'react'
 import './Store.css'
 import logo4 from './austin.jpg'
 import logo5 from './back.jpg'
 import logo6 from './sky.jpg'
 import Home from '../Home/Home'
+import axios from 'axios';
 function Store() {
+    const [news,setNews]=useState("");
     useEffect(()=>{
-       document.body.classList.add("body_no_2") 
+       document.body.classList.add("body_no_3") 
     })
+    const getNews=async()=>{
+        try{
+            const result=axios.get("https://newsapi.org/v2/everything?q=tesla&from=2024-04-11&sortBy=publishedAt&apiKey=4c99172ade1d46f9ba383e0806e180ec")
+            setNews(result.data);
+            console.log(news);
+        }catch(err){
+            console.log(err);
+        }
+    }
+    // getNews();
   return (<>
     <div>
         <Home/>
@@ -29,7 +41,9 @@ function Store() {
                 <div>
                     <img src={logo4}></img>
                     <p>Hot news</p>
-                    <h4>Title</h4>
+                    <h4>
+                        Title
+                    </h4>
                 </div>
                 <div>
                     <img src={logo5}></img>
@@ -39,10 +53,11 @@ function Store() {
                 <div>
                     <img src={logo6}></img>
                     <p>Hot news</p>
-                    <h4>Title</h4>
+                    <h4>
+                        Title
+                    </h4>
                 </div>
             </div>
-            
             <div className='mmain_div'>
                 <div className='ggboys'>
                     <p>Suggested</p>
@@ -50,7 +65,6 @@ function Store() {
                     <p className='onlyp' >
                     this is picture taken by the ai developed by the microsft Organization
                     </p>
-                    
                 </div>
                 <div>
                     <img  className="clsimg"src={logo6}></img>
@@ -67,8 +81,8 @@ function Store() {
                 </div>
                 <div>
                 <p>Location,Address</p>
-                <h4>Title</h4>
-                <p>A small description</p>
+                <h4>Face Recognition</h4>
+                {/* <p>A small description</p> */}
                 </div>
             </div>
             <div className='card2_div'>
@@ -77,8 +91,8 @@ function Store() {
                 </div>
                 <div>
                 <p>Location,Address</p>
-                <h4>Title</h4>
-                <p>A small description</p>
+                <h4>Stock Price Prediction</h4>
+                {/* <p>A small description</p> */}
                 </div>
             </div>
             <div className='card2_div'>
@@ -87,8 +101,8 @@ function Store() {
                 </div>
                 <div>
                 <p>Location,Address</p>
-                <h4>Title</h4>
-                <p>A small description</p>
+                <h4>AI Cybersecurity</h4>
+                {/* <p>Autonomous automobiles</p> */}
                 </div>
             </div>
             </div>
@@ -99,8 +113,8 @@ function Store() {
                 </div>
                 <div>
                 <p>Location,Address</p>
-                <h4>Title</h4>
-                <p>A small description</p>
+                <h4>Recommendation</h4>
+                {/* <p>A small description</p> */}
                 </div>
             </div>
             <div className='card2_div'>
@@ -109,8 +123,8 @@ function Store() {
                 </div>
                 <div>
                 <p>Location,Address</p>
-                <h4>Title</h4>
-                <p>A small description</p>
+                <h4>Sentiment Analysis</h4>
+                {/* <p>A small description</p> */}
                 </div>
             </div>
             <div className='card2_div'>
@@ -120,7 +134,7 @@ function Store() {
                 <div>
                 <p>Location,Address</p>
                 <h4>Title</h4>
-                <p>A small description</p>
+                {/* <p>A small description</p> */}
                 </div>
             </div>
             </div>

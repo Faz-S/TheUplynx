@@ -63,8 +63,8 @@ return (<>
                 <input style={{width:"20px"}}type="checkbox" required></input>
                 <p style={{fontWeight:"Bolder",fontSize:"15px"}}>Forgot password?</p>
               </div> */}
-              <div>
-              <button className='logbtn' 
+              <div className='btnrow'>
+              <button className='logbtn1' 
                 onClick={(e)=>{
                     e.preventDefault()
                     // document.getElementById("choose").innerHTML=`${choose}`
@@ -72,7 +72,7 @@ return (<>
 
                 }}
               >Investor</button>
-              <button className='logbtn'
+              <button className='logbtn1'
               onClick={(e)=>{
                 e.preventDefault()
                 // document.getElementById("choose").innerHTML=`${choose}`

@@ -11,7 +11,7 @@ function Funding() {
             <Founder/>
         </div>
         <div className='fund'>
-            <h1>Funding Accounts</h1>
+            <h2>Funding Accounts</h2>
             <div className='fund_2'>
                 <h4>Make your first investment to set up your funding account</h4>
                 <button>Find Syndicates to join</button>

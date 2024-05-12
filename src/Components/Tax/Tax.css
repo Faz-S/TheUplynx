@@ -1,0 +1,16 @@
+.taxdiv{
+    margin-left: 8rem;
+}
+.sepdiv2{
+    border-style: solid;
+    border-width: 1px;
+    width:100%;
+    padding:0.2rem;
+    padding-left: 1rem;
+    border-radius: 9px;
+    border: none;
+    color:#3A25F5;
+    background-color: #F4F3FF;
+    margin-left:-2px;
+
+}

@@ -43,7 +43,7 @@ function App() {
         <Route path='/Profile' element={<Profile/>}/>
         <Route path="/Startup" element={<Startup/>}/>
         <Route path="/Chatbot" element={<Chatbot/>}/>
-        <Route path="/founder" element={<Founder/>}/>
+        <Route path="/founder" element={<Portfolio/>}/>
         <Route path="/Portfolio" element={<Portfolio/>}/>
         <Route path="/Invest" element={<Invest/>}/>
         <Route path="/Funding" element={<Funding/>}/>
