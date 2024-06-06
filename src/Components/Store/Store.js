@@ -1,16 +1,16 @@
-import React, { useEffect,useState } from 'react'
+import React, { useEffect } from 'react'
 import './Store.css'
 import logo4 from './austin.jpg'
 import logo5 from './ai_1.jpg'
 import logo6 from './ai_2.jpg'
-import logo15 from './1.jpg'
+// import logo15 from './1.jpg'
 import logo16 from './2.jpg'
 import logo17 from './3.jpg'
 import logo18 from './4.jpg'
 import logo19 from './5.jpg'
 import logo20 from './8.jpg'
 import Home from '../Home/Home'
-import axios from 'axios';
+// import axios from 'axios';
 // import Spline from '@splinetool/react-spline';
 
 
@@ -21,19 +21,19 @@ import axios from 'axios';
 // const app = new Application(canvas);
 // app.load('https://prod.spline.design/hK2Dd2B3VYSmpIwC/scene.splinecode');
 function Store() {
-    const [news,setNews]=useState("");
+    // const [news,setNews]=useState("");
     useEffect(()=>{
        document.body.classList.add("body_no_3") 
     })
-    const getNews=async()=>{
-        try{
-            const result=axios.get("https://newsapi.org/v2/everything?q=tesla&from=2024-04-11&sortBy=publishedAt&apiKey=4c99172ade1d46f9ba383e0806e180ec")
-            setNews(result.data);
-            console.log(news);
-        }catch(err){
-            console.log(err);
-        }
-    }
+    // const getNews=async()=>{
+    //     try{
+    //         const result=axios.get("https://newsapi.org/v2/everything?q=tesla&from=2024-04-11&sortBy=publishedAt&apiKey=4c99172ade1d46f9ba383e0806e180ec")
+    //         setNews(result.data);
+    //         console.log(news);
+    //     }catch(err){
+    //         console.log(err);
+    //     }
+    // }
     // getNews();
   return (<>
   {/* <div style={{width:"100%",height:"0",paddingBottom:"100%",position:"relative"}}>
@@ -64,19 +64,19 @@ function Store() {
             </div>
             <div className='card_div'>
                 <div>
-                    <img src={logo4}></img>
+                    <img alt='alt_img' src={logo4} ></img >
                     <p>Hot news</p>
                     <h4>
                     OpenAI’s ChatGPT announcement: What we know so far
                     </h4>
                 </div>
                 <div>
-                    <img src={logo5}></img>
+                    <img alt='alt_img' src={logo5}></img >
                     <p>Hot news</p>
                     <h4>U.K. agency releases tools to test AI model safety</h4>
                 </div>
                 <div>
-                    <img src={logo6}></img>
+                    <img alt='alt_img' src={logo6}></img >
                     <p>Hot news</p>
                     <h4>
                         Women in AI: Rachel Coldicutt researches how technology impacts society
@@ -92,7 +92,7 @@ function Store() {
                     </p>
                 </div>
                 <div>
-                    <img  className="clsimg"src={logo6}></img>
+                    <img alt='alt_img'  className="clsimg"src={logo6}></img alt='alt_img'>
                 </div>
             </div> */}
             <p>Category Titles</p>
@@ -102,7 +102,7 @@ function Store() {
                 window.location.href='/Chatbot';
             }} className='card2_div ccard2_div'>
                 <div>
-                <img className="image"src={logo16}></img>
+                <img alt='alt_img' className="image"src={logo16}></img >
                 </div>
                 <div>
                 <p>London</p>
@@ -112,7 +112,7 @@ function Store() {
             </div>
             <div className='card2_div'>
                 <div>
-                <img className="image"src={logo17}></img>
+                <img alt='alt_img' className="image"src={logo17}></img >
                 </div>
                 <div>
                 <p>Chennai</p>
@@ -122,7 +122,7 @@ function Store() {
             </div>
             <div className='card2_div'>
                 <div>
-                <img className="image"src={logo18}></img>
+                <img alt='alt_img' className="image"src={logo18}></img >
                 </div>
                 <div>
                 <p>Bangalore</p>
@@ -134,7 +134,7 @@ function Store() {
             <div className='container_of_card'>
             <div className='card2_div'>
                 <div>
-                <img className="image"src={logo18}></img>
+                <img alt='alt_img' className="image"src={logo18}></img >
                 </div>
                 <div>
                 <p>Mumbai</p>
@@ -144,7 +144,7 @@ function Store() {
             </div>
             <div className='card2_div'>
                 <div>
-                <img className="image"src={logo19}></img>
+                <img alt='alt_img' className="image"src={logo19}></img >
                 </div>
                 <div>
                 <p>Hyderabad</p>
@@ -154,7 +154,7 @@ function Store() {
             </div>
             <div className='card2_div'>
                 <div>
-                <img className="image"src={logo20}></img>
+                <img alt='alt_img' className="image"src={logo20}></img >
                 </div>
                 <div>
                 <p>New york</p>
